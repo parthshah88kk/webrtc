@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MeetAppR.iml" filepath="$PROJECT_DIR$/.idea/modules/MeetAppR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1048177346/MeetAppR.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1048177346/MeetAppR.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-570077307/MeetAppR.react-native-encrypted-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-570077307/MeetAppR.react-native-encrypted-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2092878012/MeetAppR.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/2092878012/MeetAppR.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/701602399/MeetAppR.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/701602399/MeetAppR.react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-950194632/MeetAppR.react-native-incoming-call.iml" filepath="$PROJECT_DIR$/.idea/modules/-950194632/MeetAppR.react-native-incoming-call.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1645042820/MeetAppR.react-native-pager-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1645042820/MeetAppR.react-native-pager-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-814529086/MeetAppR.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-814529086/MeetAppR.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1686859686/MeetAppR.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1686859686/MeetAppR.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/754648503/MeetAppR.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/754648503/MeetAppR.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1918394241/MeetAppR.react-native-utils-scale.iml" filepath="$PROJECT_DIR$/.idea/modules/1918394241/MeetAppR.react-native-utils-scale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-642320715/MeetAppR.react-native-utils-toolkit.iml" filepath="$PROJECT_DIR$/.idea/modules/-642320715/MeetAppR.react-native-utils-toolkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/16463581/MeetAppR.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/16463581/MeetAppR.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1383369702/MeetAppR.react-native-webrtc.iml" filepath="$PROJECT_DIR$/.idea/modules/-1383369702/MeetAppR.react-native-webrtc.iml" />
+    </modules>
+  </component>
+</project>

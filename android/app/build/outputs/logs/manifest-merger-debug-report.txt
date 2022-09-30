@@ -1,0 +1,751 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:1:1-58:12
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:1:1-58:12
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:1:1-58:12
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:1:1-58:12
+MERGED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:1:1-58:12
+MERGED from [com.facebook.flipper:flipper:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/150e5801c3a7ad2d264ff7d40c67155a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/46e3c42c1795be3393d02683adfc59bf/transformed/jetified-flipper-network-plugin-0.93.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1407ff101fbd2d799f541ab9cd9ef6db/transformed/jetified-flipper-fresco-plugin-0.93.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-47:12
+MERGED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-34:12
+MERGED from [:react-native-incoming-call] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-incoming-call/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-pager-view] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-sound-player] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-sound-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-utils-scale] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-utils-scale/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-utils-toolkit] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-utils-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webrtc] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-webrtc/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-encrypted-storage] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-encrypted-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.react:react-native:0.67.2] /Users/shanidiwaker/.gradle/caches/transforms-3/b9282baf13715515189cf830dcb6ba7e/transformed/jetified-react-native-0.67.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:17:1-62:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a8ba534f02b8c75520de7d861c466b7f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/shanidiwaker/.gradle/caches/transforms-3/7463fd766ef638a03932d08cb65eff36/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b3eeb4f79822c53acd0a4acb61a145f8/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8f79f7eae7570da8e42702d87cf88171/transformed/jetified-stetho-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9395a65bcb03d713b38cfc3a2021dda8/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9c52d1c3a57340b7c940d72ba8306f5f/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f0335302d4ad7e2ba6747e8e3b2f2feb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/297f3802ba00f3335a90827f728d7d6d/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f28f4cd5eaae07a41537e2b687b8161d/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/60adc63bfa0b38c5350aba24b3a90a50/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/4d43001002fb6455811c545280c88274/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6d65e7eb7e3748ef450a9032b3f6be0c/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/shanidiwaker/.gradle/caches/transforms-3/4da36aed6f3584b3dbc7bcaa582d5bf7/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/35c7253de599c3b11ca90d54241ddcac/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/cb9c185f0ecbfd25a9ab1e4451f109a2/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/01fe986c4b4f599841a981256cf5cd2c/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1949d3336364b3cde353ce19b876431e/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8bc4dcd3937c232ccf9b791e7b867437/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a10464e3f4ad2f6b4297ff7a9adaa30b/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1fa589c1e637cd8621fde3268605bf97/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7216ad9eb65362c56eb22dc69217230c/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/77fd907553f1700a133c98bc1c3e6dc6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b86816309ff3466ad59296b20700a4bf/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/7252409c8326966c2090a0b26b6fd4a2/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/8f0bead94b43d27d1c6c16b0443aa268/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/022c5ebed95a53c29b78c139a8a52f53/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/b1d8cb70fad4029af0d60248e5fb15e3/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ca5de780126ce191217241a22999d5fc/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/shanidiwaker/.gradle/caches/transforms-3/7884d4f5713bc7018a90fdcb760bf6a5/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc1019bfa76253b832b33f562088bf6/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/shanidiwaker/.gradle/caches/transforms-3/cf843d160ac51434e0d37f71c1c3f07e/transformed/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/aadef4974706353e8fff7d7a47bec177/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/shanidiwaker/.gradle/caches/transforms-3/4ea0a571b066cb10e4fe222beeece6d2/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/5f89226490c69fab21017c03363cd307/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/883d2598dd191a61fdd473373e3c9e1c/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/5c2c80995cef1e2b7c65536e52d1a0c1/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/caa7063e353ae19d4940dfbb5a8b4a90/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/78ea0c61f2f0d93cb9b183cd9968c535/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7ff16ffbf4bcef7275f36af599b741c8/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ef0a8f838d20fd883510a8fe0f101763/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d19484abf53b65aaf7bf92de1ac5826b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9840bc8c7c03fbcd7aa107f2d4f36f48/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6e0cb3748c975df039bb1f1080fdf381/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b4546c92bfc72fd5927ba2ac8851b99c/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/3fa18744d17528b387c06c7bc6c752fe/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/6ca8bb9d970a2bc426f0b7314e3e32d1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1f2d28e3f46a739942f3f434a9554b9a/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8d7fccbfabadf71ba0aace4ae55e398e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/21b8876a9fe3f0a350aee3499af9c022/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/098fdcd290593459e517f413077381e3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8ba51fe364d371d736f46f6459befcdf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/93ebd9890cef97cd28ad6c2074120cff/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f8ff436b6b4015f8ab0c3f13a44cd948/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ebaa40905f0231f22258e6f3d40af939/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6a80964f22d10e6fc6e8af769257b3c0/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/424006f63cc107b2f4f93e252088e774/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/72236c54fdb1e56f7e75ce9fde3869bb/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7b4a211ffa2532bb950f26453780f317/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a1b79045f8afb9dc3a6619a041e1ac09/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/93c0a09f34e67a4d4849b00b328752e0/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/0bfcd24e54c29c8c27efb375602c18fe/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/fbdbf4f829a6894240061ea5638f460e/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/aa374433e4e79a171712835a39b73b4f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/eb8785e3f3db9b4b305e9bf099760913/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ace4b180c25754cf32d259d6c16d1f83/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:3:3-25
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:3:3-25
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:1:1-58:12
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:2:1-47
+	android:versionCode
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:1:1-58:12
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.facebook.flipper:flipper:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/150e5801c3a7ad2d264ff7d40c67155a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/150e5801c3a7ad2d264ff7d40c67155a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.CAMERA
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:9:5-80
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-80
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:11:5-78
+MERGED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:11:5-78
+MERGED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:11:5-78
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-78
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:11:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:13:22-63
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:14:22-70
+application
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:16:5-57:19
+MERGED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:16:5-57:19
+MERGED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:16:5-57:19
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-45:19
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-45:19
+MERGED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-32:19
+MERGED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-32:19
+MERGED from [com.facebook.react:react-native:0.67.2] /Users/shanidiwaker/.gradle/caches/transforms-3/b9282baf13715515189cf830dcb6ba7e/transformed/jetified-react-native-0.67.2/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.67.2] /Users/shanidiwaker/.gradle/caches/transforms-3/b9282baf13715515189cf830dcb6ba7e/transformed/jetified-react-native-0.67.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:31:5-60:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:31:5-60:19
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/shanidiwaker/.gradle/caches/transforms-3/4da36aed6f3584b3dbc7bcaa582d5bf7/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/shanidiwaker/.gradle/caches/transforms-3/4da36aed6f3584b3dbc7bcaa582d5bf7/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/022c5ebed95a53c29b78c139a8a52f53/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/022c5ebed95a53c29b78c139a8a52f53/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ca5de780126ce191217241a22999d5fc/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ca5de780126ce191217241a22999d5fc/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/shanidiwaker/.gradle/caches/transforms-3/7884d4f5713bc7018a90fdcb760bf6a5/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/shanidiwaker/.gradle/caches/transforms-3/7884d4f5713bc7018a90fdcb760bf6a5/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc1019bfa76253b832b33f562088bf6/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc1019bfa76253b832b33f562088bf6/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/6ca8bb9d970a2bc426f0b7314e3e32d1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/6ca8bb9d970a2bc426f0b7314e3e32d1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:18:7-39
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:18:7-39
+	tools:ignore
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:20:7-52
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:20:7-52
+	tools:targetApi
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:19:7-41
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:19:7-41
+	android:allowBackup
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:21:7-34
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:21:7-34
+	android:theme
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:23:7-38
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:23:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:22:7-42
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:17:7-38
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:17:7-38
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:24:9-26:60
+	android:resource
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:26:13-57
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:25:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:27:9-29:47
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:9-44:47
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:9-44:47
+	android:resource
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:29:13-44
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:30:9-33:71
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-41:32
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-41:32
+	tools:replace
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:31:10-39
+	android:value
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:33:13-68
+		REJECTED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-29
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:32:13-89
+service#com.meetappr.MeetAppFirebaseMessagingService
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:35:4-41:11
+	android:exported
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:37:5-29
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:36:5-52
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:38:5-40:21
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:9-70
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:17-67
+activity#com.incomingcall.UnlockScreenActivity
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:42:7-72
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:42:17-69
+activity#com.meetappr.IncomingCallScreenActivity
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:43:9-44:57
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:44:10-52
+activity#com.meetappr.MainActivity
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:45:7-56:18
+	android:label
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:47:9-41
+	android:launchMode
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:49:9-44
+	android:windowSoftInputMode
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:51:9-51
+	android:configChanges
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:48:9-86
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:46:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:52:9-55:25
+action#android.intent.action.MAIN
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:53:13-65
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:53:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:54:13-73
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:54:23-70
+uses-sdk
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/150e5801c3a7ad2d264ff7d40c67155a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/150e5801c3a7ad2d264ff7d40c67155a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/46e3c42c1795be3393d02683adfc59bf/transformed/jetified-flipper-network-plugin-0.93.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/46e3c42c1795be3393d02683adfc59bf/transformed/jetified-flipper-network-plugin-0.93.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1407ff101fbd2d799f541ab9cd9ef6db/transformed/jetified-flipper-fresco-plugin-0.93.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1407ff101fbd2d799f541ab9cd9ef6db/transformed/jetified-flipper-fresco-plugin-0.93.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-incoming-call] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-incoming-call/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-incoming-call] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-incoming-call/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-loud-speaker] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-loud-speaker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-pager-view] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-pager-view] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-sound-player] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-sound-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-sound-player] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-sound-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-utils-scale] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-utils-scale/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-utils-scale] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-utils-scale/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-utils-toolkit] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-utils-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-utils-toolkit] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-utils-toolkit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webrtc] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-webrtc/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webrtc] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-webrtc/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-encrypted-storage] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-encrypted-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-encrypted-storage] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/react-native-encrypted-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.react:react-native:0.67.2] /Users/shanidiwaker/.gradle/caches/transforms-3/b9282baf13715515189cf830dcb6ba7e/transformed/jetified-react-native-0.67.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.67.2] /Users/shanidiwaker/.gradle/caches/transforms-3/b9282baf13715515189cf830dcb6ba7e/transformed/jetified-react-native-0.67.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a8ba534f02b8c75520de7d861c466b7f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a8ba534f02b8c75520de7d861c466b7f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r250230] /Users/shanidiwaker/.gradle/caches/transforms-3/7463fd766ef638a03932d08cb65eff36/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/shanidiwaker/.gradle/caches/transforms-3/7463fd766ef638a03932d08cb65eff36/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b3eeb4f79822c53acd0a4acb61a145f8/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b3eeb4f79822c53acd0a4acb61a145f8/transformed/jetified-flipper-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8f79f7eae7570da8e42702d87cf88171/transformed/jetified-stetho-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8f79f7eae7570da8e42702d87cf88171/transformed/jetified-stetho-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9395a65bcb03d713b38cfc3a2021dda8/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9395a65bcb03d713b38cfc3a2021dda8/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9c52d1c3a57340b7c940d72ba8306f5f/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9c52d1c3a57340b7c940d72ba8306f5f/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f0335302d4ad7e2ba6747e8e3b2f2feb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f0335302d4ad7e2ba6747e8e3b2f2feb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/297f3802ba00f3335a90827f728d7d6d/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/297f3802ba00f3335a90827f728d7d6d/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f28f4cd5eaae07a41537e2b687b8161d/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f28f4cd5eaae07a41537e2b687b8161d/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/60adc63bfa0b38c5350aba24b3a90a50/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/60adc63bfa0b38c5350aba24b3a90a50/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/4d43001002fb6455811c545280c88274/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/4d43001002fb6455811c545280c88274/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6d65e7eb7e3748ef450a9032b3f6be0c/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6d65e7eb7e3748ef450a9032b3f6be0c/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/shanidiwaker/.gradle/caches/transforms-3/4da36aed6f3584b3dbc7bcaa582d5bf7/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/shanidiwaker/.gradle/caches/transforms-3/4da36aed6f3584b3dbc7bcaa582d5bf7/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/35c7253de599c3b11ca90d54241ddcac/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/35c7253de599c3b11ca90d54241ddcac/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/cb9c185f0ecbfd25a9ab1e4451f109a2/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/cb9c185f0ecbfd25a9ab1e4451f109a2/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/01fe986c4b4f599841a981256cf5cd2c/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/01fe986c4b4f599841a981256cf5cd2c/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1949d3336364b3cde353ce19b876431e/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1949d3336364b3cde353ce19b876431e/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8bc4dcd3937c232ccf9b791e7b867437/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8bc4dcd3937c232ccf9b791e7b867437/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a10464e3f4ad2f6b4297ff7a9adaa30b/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a10464e3f4ad2f6b4297ff7a9adaa30b/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1fa589c1e637cd8621fde3268605bf97/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1fa589c1e637cd8621fde3268605bf97/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7216ad9eb65362c56eb22dc69217230c/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7216ad9eb65362c56eb22dc69217230c/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/77fd907553f1700a133c98bc1c3e6dc6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/77fd907553f1700a133c98bc1c3e6dc6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b86816309ff3466ad59296b20700a4bf/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b86816309ff3466ad59296b20700a4bf/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/7252409c8326966c2090a0b26b6fd4a2/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/7252409c8326966c2090a0b26b6fd4a2/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/8f0bead94b43d27d1c6c16b0443aa268/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/8f0bead94b43d27d1c6c16b0443aa268/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/022c5ebed95a53c29b78c139a8a52f53/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/022c5ebed95a53c29b78c139a8a52f53/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/b1d8cb70fad4029af0d60248e5fb15e3/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/b1d8cb70fad4029af0d60248e5fb15e3/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ca5de780126ce191217241a22999d5fc/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ca5de780126ce191217241a22999d5fc/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/shanidiwaker/.gradle/caches/transforms-3/7884d4f5713bc7018a90fdcb760bf6a5/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/shanidiwaker/.gradle/caches/transforms-3/7884d4f5713bc7018a90fdcb760bf6a5/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc1019bfa76253b832b33f562088bf6/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc1019bfa76253b832b33f562088bf6/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/shanidiwaker/.gradle/caches/transforms-3/cf843d160ac51434e0d37f71c1c3f07e/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/shanidiwaker/.gradle/caches/transforms-3/cf843d160ac51434e0d37f71c1c3f07e/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/aadef4974706353e8fff7d7a47bec177/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/aadef4974706353e8fff7d7a47bec177/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/shanidiwaker/.gradle/caches/transforms-3/4ea0a571b066cb10e4fe222beeece6d2/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/shanidiwaker/.gradle/caches/transforms-3/4ea0a571b066cb10e4fe222beeece6d2/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/5f89226490c69fab21017c03363cd307/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/5f89226490c69fab21017c03363cd307/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/883d2598dd191a61fdd473373e3c9e1c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/883d2598dd191a61fdd473373e3c9e1c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/5c2c80995cef1e2b7c65536e52d1a0c1/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/5c2c80995cef1e2b7c65536e52d1a0c1/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/caa7063e353ae19d4940dfbb5a8b4a90/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/caa7063e353ae19d4940dfbb5a8b4a90/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/78ea0c61f2f0d93cb9b183cd9968c535/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/78ea0c61f2f0d93cb9b183cd9968c535/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7ff16ffbf4bcef7275f36af599b741c8/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7ff16ffbf4bcef7275f36af599b741c8/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ef0a8f838d20fd883510a8fe0f101763/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ef0a8f838d20fd883510a8fe0f101763/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d19484abf53b65aaf7bf92de1ac5826b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d19484abf53b65aaf7bf92de1ac5826b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9840bc8c7c03fbcd7aa107f2d4f36f48/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/9840bc8c7c03fbcd7aa107f2d4f36f48/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6e0cb3748c975df039bb1f1080fdf381/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6e0cb3748c975df039bb1f1080fdf381/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b4546c92bfc72fd5927ba2ac8851b99c/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/b4546c92bfc72fd5927ba2ac8851b99c/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/3fa18744d17528b387c06c7bc6c752fe/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/3fa18744d17528b387c06c7bc6c752fe/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/6ca8bb9d970a2bc426f0b7314e3e32d1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/6ca8bb9d970a2bc426f0b7314e3e32d1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1f2d28e3f46a739942f3f434a9554b9a/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/1f2d28e3f46a739942f3f434a9554b9a/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8d7fccbfabadf71ba0aace4ae55e398e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8d7fccbfabadf71ba0aace4ae55e398e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/21b8876a9fe3f0a350aee3499af9c022/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/21b8876a9fe3f0a350aee3499af9c022/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/098fdcd290593459e517f413077381e3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/098fdcd290593459e517f413077381e3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8ba51fe364d371d736f46f6459befcdf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/8ba51fe364d371d736f46f6459befcdf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/93ebd9890cef97cd28ad6c2074120cff/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/93ebd9890cef97cd28ad6c2074120cff/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f8ff436b6b4015f8ab0c3f13a44cd948/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/f8ff436b6b4015f8ab0c3f13a44cd948/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ebaa40905f0231f22258e6f3d40af939/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ebaa40905f0231f22258e6f3d40af939/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6a80964f22d10e6fc6e8af769257b3c0/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/6a80964f22d10e6fc6e8af769257b3c0/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/424006f63cc107b2f4f93e252088e774/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/424006f63cc107b2f4f93e252088e774/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/72236c54fdb1e56f7e75ce9fde3869bb/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/72236c54fdb1e56f7e75ce9fde3869bb/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7b4a211ffa2532bb950f26453780f317/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/7b4a211ffa2532bb950f26453780f317/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a1b79045f8afb9dc3a6619a041e1ac09/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/a1b79045f8afb9dc3a6619a041e1ac09/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/93c0a09f34e67a4d4849b00b328752e0/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/93c0a09f34e67a4d4849b00b328752e0/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/0bfcd24e54c29c8c27efb375602c18fe/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shanidiwaker/.gradle/caches/transforms-3/0bfcd24e54c29c8c27efb375602c18fe/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/fbdbf4f829a6894240061ea5638f460e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/fbdbf4f829a6894240061ea5638f460e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/aa374433e4e79a171712835a39b73b4f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/aa374433e4e79a171712835a39b73b4f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/eb8785e3f3db9b4b305e9bf099760913/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/eb8785e3f3db9b4b305e9bf099760913/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ace4b180c25754cf32d259d6c16d1f83/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/ace4b180c25754cf32d259d6c16d1f83/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:11:9-86
+	android:name
+		ADDED from /Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/150e5801c3a7ad2d264ff7d40c67155a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.93.0] /Users/shanidiwaker/.gradle/caches/transforms-3/150e5801c3a7ad2d264ff7d40c67155a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:22-73
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-103
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-25:19
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-95
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-36
+	android:permission
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-73
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-81
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-38:36
+	android:value
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-33
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-64
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:36
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-25:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:53:9-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:53:9-59:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-24:85
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-88
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:26:22-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/2dc3fa9d0f10b06e049d3813d3d028da/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:32:9-39:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:33:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:45:9-52:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:48:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:47:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:46:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:56:13-58:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:58:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:57:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58

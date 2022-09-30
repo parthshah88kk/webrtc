@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "752525800686",
+    "project_id": "meetapp-73e10",
+    "storage_bucket": "meetapp-73e10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752525800686:android:c35cac60f7a03f1356efff",
+        "android_client_info": {
+          "package_name": "com.meetappr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752525800686-apmkqb6mphts3h5ju1fgrc34htmao006.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr8Ap6Xk5gUhcBl86xqsr1oPEGF0QxcFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752525800686-apmkqb6mphts3h5ju1fgrc34htmao006.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

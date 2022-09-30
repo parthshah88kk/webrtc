@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">752525800686-apmkqb6mphts3h5ju1fgrc34htmao006.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">752525800686</string>
+    <string name="google_api_key" translatable="false">AIzaSyDr8Ap6Xk5gUhcBl86xqsr1oPEGF0QxcFY</string>
+    <string name="google_app_id" translatable="false">1:752525800686:android:c35cac60f7a03f1356efff</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDr8Ap6Xk5gUhcBl86xqsr1oPEGF0QxcFY</string>
+    <string name="google_storage_bucket" translatable="false">meetapp-73e10.appspot.com</string>
+    <string name="project_id" translatable="false">meetapp-73e10</string>
+</resources>
