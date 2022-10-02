@@ -43,6 +43,8 @@ function Dashboard({ navigation }) {
 
   async function getFriends() {
     const response = await getFriendsApi();
+    // console.log('-------->', response.data);
+
     return response?.data;
   }
 

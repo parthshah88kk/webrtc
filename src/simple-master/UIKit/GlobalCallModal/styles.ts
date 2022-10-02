@@ -62,7 +62,7 @@ export const styles = StyleSheet.create({
   incomingView: {
     paddingHorizontal: 20,
     alignSelf: 'flex-start',
-    backgroundColor: '#1a2235',
+    backgroundColor: '#323232',
     width: '100%'
   },
   incoming: {

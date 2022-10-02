@@ -1,21 +1,10 @@
 import VideoCallHeader from './VideoCallHeader';
 import React, { useEffect, useState } from 'react';
-import {
-    View,
-    Image,
-    Text,
-    TouchableOpacity,
-    ImageSourcePropType,
-    StyleSheet,
-    Alert,
-    StatusBar
-} from 'react-native';
+import { View, Image, Text, TouchableOpacity, StyleSheet, Alert, StatusBar } from 'react-native';
 import { CallEvents, TypeProps } from '../../WebRtcSimple/contains';
 import { CallIcons } from './CallIcons';
 import WebrtcSimple from '../../index';
 import { globalCall } from '../../../simple-master/UIKit';
-
-
 import { styles } from './styles';
 import { useRoute } from '@react-navigation/core';
 import { PUSH_CALL_TYPE, usePushNotification } from 'screens/login/usePushNotification';
@@ -40,6 +29,7 @@ const ChatScreen = ({ route, navigation }) => {
     const callToUser = async (callId: string, userId: number, item: any, callType: string) => {
         if (callId.length > 0) {
             let info: any = await EncryptedStorage.getItem('user_info');
+            let device_uid: any = await EncryptedStorage.getItem('deviice_uid');
             if (info) info = JSON.parse(info);
             const useData = {
                 sender_name: info?.fname + " " + info?.lname,
@@ -47,6 +37,7 @@ const ChatScreen = ({ route, navigation }) => {
                 receiver_name: item?.fname + " " + item?.lname,
                 receiver_avatar: 'https://www.atlantawatershed.org/wp-content/uploads/2017/06/default-placeholder.png',
                 user_id: userId,
+                device_uid: device_uid,
                 item: item,
                 callType
             };

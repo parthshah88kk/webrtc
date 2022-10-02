@@ -127,6 +127,7 @@ const GlobalCallUI = React.forwardRef((props, ref) => {
   }
 
   const call = async (sessionId: string, userData: any) => {
+    console.log('//////======', userData);
     setUserData(userData);
     setVisible(true);
     setType('START_CALL');
@@ -265,7 +266,7 @@ const GlobalCallUI = React.forwardRef((props, ref) => {
               }
             </View>
           </>
-          : <View style={{ alignSelf: 'center', backgroundColor: '#1a2235' }}>
+          : <View style={{ alignSelf: 'center', backgroundColor: '#323232' }}>
             <View style={style.imageView}>
               {
                 userData?.receiver_avatar
@@ -290,7 +291,7 @@ const GlobalCallUI = React.forwardRef((props, ref) => {
       <Modal visible={visible} transparent onRequestClose={() => { setVisible(false); }}>
         <View style={{
           flex: 1,
-          backgroundColor: '#1a2235',
+          backgroundColor: '#323232',
         }}>
           {screen === 'Receiver' && <ReceiverScreen />}
           {screen === 'Caller' && <CallerScreen />}

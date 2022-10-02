@@ -6398,6 +6398,11 @@
   dependencies:
     "d3-shape" "*"
 
+"react-native-device-info@^10.2.0":
+  "integrity" "sha512-7VycjFGaLKIZLDwCxSK5cWZdDOGqz3QxdGF57B/a4bW3gkrUFa5Gf0v7fUR9YL/VBJM0UwDiDH7pR9hkMQt+vw=="
+  "resolved" "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-10.2.0.tgz"
+  "version" "10.2.0"
+
 "react-native-element-dropdown@*":
   "integrity" "sha512-tADlqE9YK08t9d+wgT9Zfvlt3xjqGMv3qgDkbyqfz3TUy8y1R9itPrhiZmH2zVs3b7utfQmpzDGvl1V5mvtKjA=="
   "resolved" "https://registry.npmjs.org/react-native-element-dropdown/-/react-native-element-dropdown-1.8.12.tgz"

@@ -47,313 +47,316 @@
 23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 23-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:5-82
 23-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:22-79
-24
-25    <application
-25-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:16:5-57:19
-26        android:name="com.meetappr.MainApplication"
-26-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:17:7-38
-27        android:allowBackup="false"
-27-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:21:7-34
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
-29        android:debuggable="true"
-30        android:icon="@mipmap/ic_launcher"
-30-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:19:7-41
-31        android:label="@string/app_name"
-31-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:18:7-39
-32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:20:7-52
-33        android:theme="@style/AppTheme"
-33-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:23:7-38
-34        android:usesCleartextTraffic="true" >
-34-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:22:7-42
-35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-35-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:11:9-86
-35-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:11:19-83
-36
-37        <meta-data
-37-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:24:9-26:60
-38            android:name="com.google.firebase.messaging.default_notification_icon"
-38-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:25:13-83
-39            android:resource="@drawable/ic_stat_ac_unit" />
-39-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:26:13-57
-40        <meta-data
-40-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:27:9-29:47
-41            android:name="com.google.firebase.messaging.default_notification_color"
-41-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:28:13-84
-42            android:resource="@color/white" />
-42-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:29:13-44
-43        <meta-data
-43-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:30:9-33:71
-44            android:name="com.google.firebase.messaging.default_notification_channel_id"
-44-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:32:13-89
-45            android:value="@string/default_notification_channel_id" />
-45-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:33:13-68
-46
-47        <service
-47-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:35:4-41:11
-48            android:name="com.meetappr.MeetAppFirebaseMessagingService"
-48-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:36:5-52
-49            android:exported="false" >
-49-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:37:5-29
-50            <intent-filter>
-50-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:38:5-40:21
-51                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-51-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:9-70
-51-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:17-67
-52            </intent-filter>
-53        </service>
-54
-55        <activity android:name="com.incomingcall.UnlockScreenActivity" />
-55-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:42:7-72
-55-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:42:17-69
-56        <activity android:name="com.meetappr.IncomingCallScreenActivity" />
-56-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:43:9-44:57
-56-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:44:10-52
-57        <activity
-57-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:45:7-56:18
-58            android:name="com.meetappr.MainActivity"
-58-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:46:9-37
-59            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-59-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:48:9-86
-60            android:label="@string/app_name"
-60-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:47:9-41
-61            android:launchMode="singleInstance"
-61-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:49:9-44
-62            android:windowSoftInputMode="adjustResize" >
-62-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:51:9-51
-63            <intent-filter>
-63-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:52:9-55:25
-64                <action android:name="android.intent.action.MAIN" />
-64-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:53:13-65
-64-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:53:21-62
-65
-66                <category android:name="android.intent.category.LAUNCHER" />
-66-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:54:13-73
-66-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:54:23-70
-67            </intent-filter>
-68        </activity>
-69
-70        <service
-70-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
-71            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
-71-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-103
-72            android:exported="false" />
-72-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
-73        <service
-73-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-25:19
-74            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-74-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-95
-75            android:exported="false" >
-75-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
-76            <intent-filter>
-76-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:38:5-40:21
-77                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-77-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:9-70
-77-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:17-67
-78            </intent-filter>
-79        </service>
-80
-81        <receiver
-81-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-34:20
-82            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-82-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-96
-83            android:exported="true"
-83-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-36
-84            android:permission="com.google.android.c2dm.permission.SEND" >
-84-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-73
-85            <intent-filter>
-85-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:29
-86                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-86-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-81
-86-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:25-78
-87            </intent-filter>
-88        </receiver>
-89
-90        <meta-data
-90-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-38:36
-91            android:name="firebase_messaging_auto_init_enabled"
-91-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-64
-92            android:value="true" />
-92-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-33
-93        <meta-data
-93-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:36
-94            android:name="app_data_collection_default_enabled"
-94-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-63
-95            android:value="true" />
-95-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-33
-96
-97        <service
-97-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-25:19
-98            android:name="com.google.firebase.components.ComponentDiscoveryService"
-98-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-84
-99            android:directBootAware="true"
-99-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-43
-100            android:exported="false" >
-100-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-37
-101            <meta-data
-101-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-24:85
-102                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-102-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-120
-103                android:value="com.google.firebase.components.ComponentRegistrar" />
-103-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-82
-104            <meta-data
-104-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:56:13-58:85
-105                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-105-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:57:17-119
-106                android:value="com.google.firebase.components.ComponentRegistrar" />
-106-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:58:17-82
-107            <meta-data
-107-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
-108                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-108-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
-109                android:value="com.google.firebase.components.ComponentRegistrar" />
-109-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
-110            <meta-data
-110-->[com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
-111                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-111-->[com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
-112                android:value="com.google.firebase.components.ComponentRegistrar" />
-112-->[com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
-113        </service>
-114
-115        <provider
-115-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:38
-116            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-116-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-88
-117            android:authorities="com.meetappr.reactnativefirebaseappinitprovider"
-117-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-86
-118            android:exported="false"
-118-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-37
-119            android:initOrder="99" />
-119-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-35
-120
-121        <receiver
-121-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:32:9-39:20
-122            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-122-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:33:13-78
-123            android:exported="true"
-123-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:34:13-36
-124            android:permission="com.google.android.c2dm.permission.SEND" >
-124-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:35:13-73
-125            <intent-filter>
-125-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:29
-126                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-126-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-81
-126-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:25-78
-127            </intent-filter>
-128        </receiver>
-129        <!--
-130             FirebaseMessagingService performs security checks at runtime,
-131             but set to not exported to explicitly avoid allowing another app to call it.
-132        -->
-133        <service
-133-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:45:9-52:19
-134            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-134-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:46:13-82
-135            android:directBootAware="true"
-135-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:47:13-43
-136            android:exported="false" >
-136-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:48:13-37
-137            <intent-filter android:priority="-500" >
-137-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:38:5-40:21
-138                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-138-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:9-70
-138-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:17-67
-139            </intent-filter>
-140        </service>
-141        <service
-141-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
-142            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-142-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
-143            android:exported="false" >
-143-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
-144            <meta-data
-144-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
-145                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-145-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
-146                android:value="cct" />
-146-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
-147        </service>
-148        <service
-148-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
-149            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-149-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
-150            android:exported="false"
-150-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
-151            android:permission="android.permission.BIND_JOB_SERVICE" >
-151-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
-152        </service>
-153
-154        <receiver
-154-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
-155            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-155-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
-156            android:exported="false" />
-156-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
-157
-158        <provider
-158-->[com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-159            android:name="com.squareup.picasso.PicassoProvider"
-159-->[com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-160            android:authorities="com.meetappr.com.squareup.picasso"
-160-->[com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-161            android:exported="false" />
-161-->[com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-162
-163        <activity
-163-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
-164            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-164-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
-165            android:excludeFromRecents="true"
-165-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
-166            android:exported="false"
-166-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
-167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-167-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
-168        <!--
-169            Service handling Google Sign-In user revocation. For apps that do not integrate with
-170            Google Sign-In, this service will never be started.
-171        -->
-172        <service
-172-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
-173            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-173-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
-174            android:exported="true"
-174-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
-175            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-175-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
-176            android:visibleToInstantApps="true" />
-176-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
-177
-178        <activity
-178-->[com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-179            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-179-->[com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-180            android:exported="false"
-180-->[com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-181            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-181-->[com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-182
-183        <provider
-183-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
-184            android:name="com.google.firebase.provider.FirebaseInitProvider"
-184-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
-185            android:authorities="com.meetappr.firebaseinitprovider"
-185-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
-186            android:directBootAware="true"
-186-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
-187            android:exported="false"
-187-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
-188            android:initOrder="100" />
-188-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
-189
-190        <meta-data
-190-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-191            android:name="com.google.android.gms.version"
-191-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-192            android:value="@integer/google_play_services_version" />
-192-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-193    </application>
-194
-195</manifest>
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.android.installreferrer:installreferrer:1.1.2] /Users/shanidiwaker/.gradle/caches/transforms-3/b786e9f9cffba885b5ee6315e8c4dbd5/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+24-->[com.android.installreferrer:installreferrer:1.1.2] /Users/shanidiwaker/.gradle/caches/transforms-3/b786e9f9cffba885b5ee6315e8c4dbd5/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+25
+26    <application
+26-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:16:5-57:19
+27        android:name="com.meetappr.MainApplication"
+27-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:17:7-38
+28        android:allowBackup="false"
+28-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:21:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.5.0] /Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:19:7-41
+32        android:label="@string/app_name"
+32-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:18:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:20:7-52
+34        android:theme="@style/AppTheme"
+34-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:23:7-38
+35        android:usesCleartextTraffic="true" >
+35-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:22:7-42
+36        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+36-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:11:9-86
+36-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/debug/AndroidManifest.xml:11:19-83
+37
+38        <meta-data
+38-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:24:9-26:60
+39            android:name="com.google.firebase.messaging.default_notification_icon"
+39-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:25:13-83
+40            android:resource="@drawable/ic_stat_ac_unit" />
+40-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:26:13-57
+41        <meta-data
+41-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:27:9-29:47
+42            android:name="com.google.firebase.messaging.default_notification_color"
+42-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:28:13-84
+43            android:resource="@color/white" />
+43-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:29:13-44
+44        <meta-data
+44-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:30:9-33:71
+45            android:name="com.google.firebase.messaging.default_notification_channel_id"
+45-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:32:13-89
+46            android:value="@string/default_notification_channel_id" />
+46-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:33:13-68
+47
+48        <service
+48-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:35:4-41:11
+49            android:name="com.meetappr.MeetAppFirebaseMessagingService"
+49-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:36:5-52
+50            android:exported="false" >
+50-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:37:5-29
+51            <intent-filter>
+51-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:38:5-40:21
+52                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+52-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:9-70
+52-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:17-67
+53            </intent-filter>
+54        </service>
+55
+56        <activity android:name="com.incomingcall.UnlockScreenActivity" />
+56-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:42:7-72
+56-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:42:17-69
+57        <activity android:name="com.meetappr.IncomingCallScreenActivity" />
+57-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:43:9-44:57
+57-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:44:10-52
+58        <activity
+58-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:45:7-56:18
+59            android:name="com.meetappr.MainActivity"
+59-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:46:9-37
+60            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+60-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:48:9-86
+61            android:label="@string/app_name"
+61-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:47:9-41
+62            android:launchMode="singleInstance"
+62-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:49:9-44
+63            android:windowSoftInputMode="adjustResize" >
+63-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:51:9-51
+64            <intent-filter>
+64-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:52:9-55:25
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:53:13-65
+65-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:53:21-62
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:54:13-73
+67-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:54:23-70
+68            </intent-filter>
+69        </activity>
+70
+71        <service
+71-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+72            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+72-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-103
+73            android:exported="false" />
+73-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+74        <service
+74-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-25:19
+75            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+75-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-95
+76            android:exported="false" >
+76-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+77            <intent-filter>
+77-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:38:5-40:21
+78                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+78-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:9-70
+78-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:17-67
+79            </intent-filter>
+80        </service>
+81
+82        <receiver
+82-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-34:20
+83            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+83-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-96
+84            android:exported="true"
+84-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-36
+85            android:permission="com.google.android.c2dm.permission.SEND" >
+85-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-73
+86            <intent-filter>
+86-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:29
+87                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+87-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-81
+87-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:25-78
+88            </intent-filter>
+89        </receiver>
+90
+91        <meta-data
+91-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-38:36
+92            android:name="firebase_messaging_auto_init_enabled"
+92-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-64
+93            android:value="true" />
+93-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-33
+94        <meta-data
+94-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:36
+95            android:name="app_data_collection_default_enabled"
+95-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-63
+96            android:value="true" />
+96-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-33
+97
+98        <service
+98-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-25:19
+99            android:name="com.google.firebase.components.ComponentDiscoveryService"
+99-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-84
+100            android:directBootAware="true"
+100-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-43
+101            android:exported="false" >
+101-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-37
+102            <meta-data
+102-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-24:85
+103                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+103-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-120
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:56:13-58:85
+106                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+106-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:57:17-119
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:58:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+109                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+109-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/shanidiwaker/.gradle/caches/transforms-3/561516b981fd0bbfb29b8b7f8918eee6/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+112                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+112-->[com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-installations:17.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/5adc4106a79aaa6bf5e99447be78fd94/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+114        </service>
+115
+116        <provider
+116-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:38
+117            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+117-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-88
+118            android:authorities="com.meetappr.reactnativefirebaseappinitprovider"
+118-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-86
+119            android:exported="false"
+119-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-37
+120            android:initOrder="99" />
+120-->[:react-native-firebase_app] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-35
+121
+122        <receiver
+122-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:32:9-39:20
+123            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+123-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:33:13-78
+124            android:exported="true"
+124-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:34:13-36
+125            android:permission="com.google.android.c2dm.permission.SEND" >
+125-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:35:13-73
+126            <intent-filter>
+126-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:29
+127                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+127-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-81
+127-->[:react-native-firebase_messaging] /Users/shanidiwaker/Documents/GitHub/webrtc/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:25-78
+128            </intent-filter>
+129        </receiver>
+130        <!--
+131             FirebaseMessagingService performs security checks at runtime,
+132             but set to not exported to explicitly avoid allowing another app to call it.
+133        -->
+134        <service
+134-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:45:9-52:19
+135            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+135-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:46:13-82
+136            android:directBootAware="true"
+136-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:47:13-43
+137            android:exported="false" >
+137-->[com.google.firebase:firebase-messaging:23.0.6] /Users/shanidiwaker/.gradle/caches/transforms-3/250e8b3f00131128a7edddda671d2016/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:48:13-37
+138            <intent-filter android:priority="-500" >
+138-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:38:5-40:21
+139                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+139-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:9-70
+139-->/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/AndroidManifest.xml:39:17-67
+140            </intent-filter>
+141        </service>
+142        <service
+142-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+143            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+143-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+144            android:exported="false" >
+144-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+145            <meta-data
+145-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+146                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+146-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+147                android:value="cct" />
+147-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/fdf1a8f2a0672c63a0d78a7fc3a9b80c/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+148        </service>
+149        <service
+149-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+150            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+150-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+151            android:exported="false"
+151-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+152            android:permission="android.permission.BIND_JOB_SERVICE" >
+152-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+153        </service>
+154
+155        <receiver
+155-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+156            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+156-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
+157            android:exported="false" />
+157-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/shanidiwaker/.gradle/caches/transforms-3/e52c5f7dfa0c7e56692f5be4d3ee1f13/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+158
+159        <provider
+159-->[com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+160            android:name="com.squareup.picasso.PicassoProvider"
+160-->[com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+161            android:authorities="com.meetappr.com.squareup.picasso"
+161-->[com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+162            android:exported="false" />
+162-->[com.squareup.picasso:picasso:2.71828] /Users/shanidiwaker/.gradle/caches/transforms-3/cdd10f480797c463444171dd33510bad/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+163
+164        <activity
+164-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+165            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+165-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+166            android:excludeFromRecents="true"
+166-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+168-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+169        <!--
+170            Service handling Google Sign-In user revocation. For apps that do not integrate with
+171            Google Sign-In, this service will never be started.
+172        -->
+173        <service
+173-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+174            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+174-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+175            android:exported="true"
+175-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+176            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+176-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+177            android:visibleToInstantApps="true" />
+177-->[com.google.android.gms:play-services-auth:20.2.0] /Users/shanidiwaker/.gradle/caches/transforms-3/586602c35df1de015474cd641554c494/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+178
+179        <activity
+179-->[com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+180            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+180-->[com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+182-->[com.google.android.gms:play-services-base:18.0.1] /Users/shanidiwaker/.gradle/caches/transforms-3/ad4664cc07c55d59efb94edefc38ac1d/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+183
+184        <provider
+184-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+185            android:name="com.google.firebase.provider.FirebaseInitProvider"
+185-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+186            android:authorities="com.meetappr.firebaseinitprovider"
+186-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+187            android:directBootAware="true"
+187-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+188            android:exported="false"
+188-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+189            android:initOrder="100" />
+189-->[com.google.firebase:firebase-common:20.1.1] /Users/shanidiwaker/.gradle/caches/transforms-3/1dc496c6736e83997dd867223e54ccc7/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+190
+191        <meta-data
+191-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+192            android:name="com.google.android.gms.version"
+192-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+193            android:value="@integer/google_play_services_version" />
+193-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shanidiwaker/.gradle/caches/transforms-3/d411f003698281224b8f3d73e4b504b5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+194    </application>
+195
+196</manifest>

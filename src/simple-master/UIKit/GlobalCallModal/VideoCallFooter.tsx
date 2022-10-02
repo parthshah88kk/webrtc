@@ -55,24 +55,37 @@ const VideoCallFooter: React.FC<IVideoCallFooter> = ({
             display: 'flex',
             flexDirection: 'row',
             width: '100%',
-            justifyContent: 'space-evenly',
-            marginBottom: 100,
+            justifyContent: 'space-around',
+            marginBottom: 30,
           }}>
-          {/* <CallIcons
-            iconSize={40}
-            iconSizeBackground={80}
-            icon={require('./icon/call_white.png')}
-            color="red"
-            onPress={onEndCall}
-          />
-          <CallIcons
-            iconSize={40}
-            iconSizeBackground={80}
-            icon={require('./icon/call-white.png')}
-            color="green"
-            onPress={onAccept}
-          /> */}
-          <TouchableOpacity onPress={onAccept}>
+          <View>
+            <CallIcons
+              iconSize={30}
+              iconSizeBackground={60}
+              icon={require('./icon/call-end.png')}
+              color="red"
+              onPress={onEndCall}
+            />
+            <Text style={footerStyle.text}>Decline</Text>
+          </View>
+          <View>
+            {data.callType === 'VIDEO' ? <CallIcons
+              iconSize={30}
+              iconSizeBackground={60}
+              icon={require('./icon/video.png')}
+              color="green"
+              onPress={onAccept}
+            /> :
+              <CallIcons
+                iconSize={30}
+                iconSizeBackground={60}
+                icon={require('./icon/call-white.png')}
+                color="green"
+                onPress={onAccept}
+              />}
+            <Text style={footerStyle.text}>Accept</Text>
+          </View>
+          {/* <TouchableOpacity onPress={onAccept}>
             <View style={footerStyle.acceptCallView}>
               <Text style={footerStyle.endCallText}>Accept</Text>
             </View>
@@ -81,7 +94,7 @@ const VideoCallFooter: React.FC<IVideoCallFooter> = ({
             <View style={footerStyle.endCallView}>
               <Text style={footerStyle.endCallText}>Decline</Text>
             </View>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       )}
       {callStatus === CallEvents.start && (
@@ -98,7 +111,7 @@ const VideoCallFooter: React.FC<IVideoCallFooter> = ({
             },
           ]}>
 
-          <View
+          {/* <View
             style={[
               footerStyle.flexRow,
               {
@@ -130,25 +143,28 @@ const VideoCallFooter: React.FC<IVideoCallFooter> = ({
                 onPress={toggleAudio}
               />
             </>}
-          </View>
-          {!isCallAgain && <TouchableOpacity onPress={onEndCall}>
-            <View style={footerStyle.endCallView1}>
-              <Text style={footerStyle.endCallText}>Disconnect</Text>
-            </View>
-          </TouchableOpacity>}
+          </View> */}
+          {!isCallAgain &&
+            <View style={{ alignItems: 'center' }}>
+              <CallIcons
+                iconSize={30}
+                iconSizeBackground={60}
+                icon={require('./icon/call-end.png')}
+                color={'red'}
+                onPress={onEndCall}
+              />
+              <Text style={footerStyle.text}>End call</Text>
+            </View>}
         </View>
       )}
 
       {callStatus === CallEvents.accept && (
         <View
           style={[
-            // footerStyle.flexRow,
             {
               justifyContent: 'space-between',
               width: '100%',
               paddingHorizontal: 15,
-              // backgroundColor: "rgba(255, 255, 255, 0.5)",
-              // opacity: 0.5,
               paddingVertical: 25,
             },
           ]}>
@@ -163,35 +179,75 @@ const VideoCallFooter: React.FC<IVideoCallFooter> = ({
                 marginVertical: 10
               },
             ]}>
-            {data.callType === 'VIDEO' && <>
-              <CallIcons
-                icon={require('./icon/camera.png')}
-                onPress={() => { switchCamera() }}
-                color={'grey'}
-              />
-            </>}
 
-            <CallIcons
-              icon={require('./icon/volume.png')}
-              color={!loudSpeakerDisabled ? undefined : 'grey'}
-              onPress={toggleLoudSpeaker}
-            />
-            {data.callType === 'VIDEO' && <CallIcons
-              icon={require('./icon/no-video.png')}
-              color={!videoDisabled ? undefined : 'grey'}
-              onPress={toggleVideo}
-            />}
-            <CallIcons
-              icon={require('./icon/mic_black.png')}
-              color={!audioDisabled ? undefined : 'grey'}
-              onPress={toggleAudio}
-            />
+            {data.callType === 'VIDEO' ?
+              <>
+                <View>
+                  <CallIcons
+                    icon={require('./icon/mic_black.png')}
+                    color={!audioDisabled ? undefined : 'grey'}
+                    onPress={toggleAudio}
+                  />
+                  <Text style={footerStyle.text}>Mic</Text>
+                </View>
+                <View>
+                  <CallIcons
+                    icon={require('./icon/no-video.png')}
+                    color={!videoDisabled ? undefined : 'grey'}
+                    onPress={toggleVideo}
+                  />
+                  <Text style={footerStyle.text}>Camera off</Text>
+                </View>
+                <View>
+                  <CallIcons
+                    icon={require('./icon/camera.png')}
+                    onPress={() => { switchCamera() }}
+                    color={'grey'}
+                  />
+                  <Text style={footerStyle.text}>Swap cam</Text>
+                </View>
+                <View>
+                  <CallIcons
+                    icon={require('./icon/call-end.png')}
+                    color={'red'}
+                    onPress={onEndCall}
+                  />
+                  <Text style={footerStyle.text}>End call</Text>
+                </View>
+              </>
+              :
+              <>
+                <View>
+                  <CallIcons
+                    icon={require('./icon/mic_black.png')}
+                    color={!audioDisabled ? undefined : 'grey'}
+                    onPress={toggleAudio}
+                  />
+                  <Text style={footerStyle.text}>Mute</Text>
+                </View>
+                <View>
+                  <CallIcons
+                    icon={require('./icon/call-end.png')}
+                    color={'red'}
+                    onPress={onEndCall}
+                  />
+                  <Text style={footerStyle.text}>End call</Text>
+                </View>
+                <View>
+                  <CallIcons
+                    icon={require('./icon/volume.png')}
+                    color={!loudSpeakerDisabled ? undefined : 'grey'}
+                    onPress={toggleLoudSpeaker}
+                  />
+                  <Text style={footerStyle.text}>Mic</Text>
+                </View>
+              </>}
           </View>
-          <TouchableOpacity onPress={onEndCall}>
+          {/* <TouchableOpacity onPress={onEndCall}>
             <View style={footerStyle.endCallView1}>
               <Text style={footerStyle.endCallText}>Disconnect</Text>
             </View>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       )}
     </View>
@@ -234,6 +290,12 @@ const footerStyle = StyleSheet.create({
     paddingHorizontal: 35,
     paddingVertical: 15,
     borderRadius: 50
+  },
+  text: {
+    color: '#fff',
+    fontSize: 10,
+    marginTop: 5,
+    textAlign: 'center'
   }
 });
 

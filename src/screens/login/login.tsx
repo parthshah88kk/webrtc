@@ -9,6 +9,8 @@ import EncryptedStorage from 'react-native-encrypted-storage';
 import loginApi from '../../apis/auth/login';
 import { usePushNotification } from './usePushNotification';
 import AsyncStorage from '@react-native-async-storage/async-storage/jest/async-storage-mock';
+import DeviceInfo from 'react-native-device-info';
+
 
 const validationSchema = Yup.object().shape({
   email: Yup.string()
@@ -20,9 +22,10 @@ const validationSchema = Yup.object().shape({
 function Sample() {
   const navigate = useNavigation();
   const [error, setError] = useState<string | null>(null);
+  const [uid, setUid] = useState<string>();
   const { requestNotificationPermission } = usePushNotification();
 
-  const setUserToken = async (token: string, user: object, name: string) => {
+  const setUserToken = async (token: string, user: object, name: string,) => {
     if (isEmpty(token)) {
       return;
     }
@@ -60,6 +63,11 @@ function Sample() {
     const response = await loginApi(data);
     console.log("responsess1111", response?.data?.data);
 
+    DeviceInfo.getUniqueId().then(async (uniqueId) => {
+      console.log('deviceiddddddddd', uniqueId);
+      await EncryptedStorage.setItem('deviice_uid', uniqueId);
+    });
+
     await setUserToken(
       get(response, 'data.data.token', ''),
       get(response, 'data.data', {}),
@@ -75,9 +83,9 @@ function Sample() {
     formData.append('password', password);
     userLogin(formData)
       .then(data => {
-        navigate.dispatch(StackActions.replace('Home', { user: data.data }));
-        console.log('__userData___', data.data);
-        requestNotificationPermission(data.data.id);
+        navigate.dispatch(StackActions.replace('Home', { user: data?.data }));
+        console.log('__userData___', data?.data);
+        requestNotificationPermission(data?.data?.id);
       })
       .catch(err => {
         console.log(err);

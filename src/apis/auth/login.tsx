@@ -1,8 +1,11 @@
 //import axios from '@app/apis/axiosInstance';
 import axios from '../axiosInstance';
 //import axios from "axios";
+import EncryptedStorage from 'react-native-encrypted-storage';
+
 
 const loginApi = (data: FormData) => {
+
   try {
     return axios.post('chat/login.php', data);
   } catch (err) {
