@@ -1,32 +1,29 @@
-import VideoCallHeader from './VideoCallHeader';
 import React, { useEffect, useState } from 'react';
 import { View, Image, Text, TouchableOpacity, StyleSheet, Alert, StatusBar } from 'react-native';
 import { CallEvents, TypeProps } from '../../WebRtcSimple/contains';
-import { CallIcons } from './CallIcons';
 import WebrtcSimple from '../../index';
 import { globalCall } from '../../../simple-master/UIKit';
-import { styles } from './styles';
 import { useRoute } from '@react-navigation/core';
 import { PUSH_CALL_TYPE, usePushNotification } from 'screens/login/usePushNotification';
 import EncryptedStorage from 'react-native-encrypted-storage';
-import { socket } from '../../../socket_connection'
 
 const ChatScreen = ({ route, navigation }) => {
     const { item } = route.params;
     const fullName = (useRoute().params as any)?.fullName;
-    const [receverName, setReceverName] = useState<string>('');
-    const [sessionId, setSessionId] = useState<string>('');
     const { sendFCMPush } = usePushNotification();
     const { params } = useRoute();
     const [type, setType] = useState<string>();
     const [remoteStream, setRemoteStream] = useState<any>(null);
 
     useEffect(() => {
+        console.log('item====>', item?.device_token?.map((i) => i.auth));
+
         if (type !== CallEvents.message) { setType(type); }
         WebrtcSimple.listenings.getRemoteStream(remoteStream => { setRemoteStream(remoteStream) })
     }, []);
 
     const callToUser = async (callId: string, userId: number, item: any, callType: string) => {
+        console.log('oooooohhhhhhh', callId, userId);
         if (callId.length > 0) {
             let info: any = await EncryptedStorage.getItem('user_info');
             let device_uid: any = await EncryptedStorage.getItem('deviice_uid');
@@ -61,7 +58,7 @@ const ChatScreen = ({ route, navigation }) => {
                     </View>
                 </View>
                 <View style={{ flexDirection: 'row', alignSelf: 'center', paddingVertical: 15 }}>
-                    <TouchableOpacity style={[headerStyle.option, { marginRight: 5 }]} onPress={() => { callToUser(item.username, item.id, item, 'AUDIO') }}>
+                    <TouchableOpacity style={[headerStyle.option, { marginRight: 5 }]} onPress={() => { callToUser(item?.device_token[1].auth, item.id, item, 'AUDIO') }}>
                         <Image source={require('./icon/phone-receiver.png')} style={[headerStyle.image, { tintColor: '#a033fe' }]} />
                     </TouchableOpacity >
                     <TouchableOpacity style={headerStyle.option} onPress={() => { callToUser(item.username, item.id, item, 'VIDEO') }}>

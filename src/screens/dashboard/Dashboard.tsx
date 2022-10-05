@@ -8,9 +8,6 @@ import HomeHeader from '../../screens/dashboard/HomeHeader';
 import { getFriendsApi } from '../../apis/home/api';
 import EncryptedStorage from 'react-native-encrypted-storage';
 import WebrtcSimple from '../../simple-master';
-import { globalCall } from '../../simple-master/UIKit';
-import { StackActions, useNavigation } from '@react-navigation/native';
-import VideoCallHeader from '../../simple-master/UIKit/GlobalCallModal/VideoCallHeader';
 
 import {
   PUSH_CALL_TYPE,
@@ -49,8 +46,10 @@ function Dashboard({ navigation }) {
   }
 
   const startConnection = async () => {
-    const name = await EncryptedStorage.getItem('user_name');
+    const name = await EncryptedStorage.getItem('deviice_uid');
     const configuration: any = { optional: null, key: name, };
+    // console.log('firsttttttt', name);
+
 
     WebrtcSimple.start(configuration, { frameRate: 120 })
       .then(status => {
@@ -76,7 +75,9 @@ function Dashboard({ navigation }) {
       }
       setFriends(data.data);
       console.log("friends======>", friends);
-
+      // friends.map(i => {
+      //   console.log("friends======>1", i);
+      // })
       setLoading(false);
     });
   }

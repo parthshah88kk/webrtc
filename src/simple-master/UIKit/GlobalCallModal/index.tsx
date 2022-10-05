@@ -20,7 +20,9 @@ StatusBar.setBarStyle('dark-content');
 export const globalCallRef = React.createRef<any>();
 export const globalCall = {
   call: (sessionId: string, userData: object) => {
+    // console.log('1111', sessionId);
     globalCallRef?.current?.call(sessionId, userData);
+    // console.log('22222', sessionId);
   },
   endCall: () => {
     globalCallRef?.current?.endCall();

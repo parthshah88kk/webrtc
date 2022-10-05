@@ -7,10 +7,9 @@ import { StackActions, useNavigation } from '@react-navigation/native';
 import { get, isEmpty } from 'lodash';
 import EncryptedStorage from 'react-native-encrypted-storage';
 import loginApi from '../../apis/auth/login';
+import insertTokenApi from '../../apis/auth/deviceToken';
 import { usePushNotification } from './usePushNotification';
-import AsyncStorage from '@react-native-async-storage/async-storage/jest/async-storage-mock';
 import DeviceInfo from 'react-native-device-info';
-
 
 const validationSchema = Yup.object().shape({
   email: Yup.string()
@@ -22,7 +21,7 @@ const validationSchema = Yup.object().shape({
 function Sample() {
   const navigate = useNavigation();
   const [error, setError] = useState<string | null>(null);
-  const [uid, setUid] = useState<string>();
+  const [deviceToken, setDeviceToken] = useState<any>([]);
   const { requestNotificationPermission } = usePushNotification();
 
   const setUserToken = async (token: string, user: object, name: string,) => {
@@ -57,23 +56,46 @@ function Sample() {
 
   useLayoutEffect(() => {
     getAuth();
+    DeviceInfo.getUniqueId().then(async (uniqueId) => {
+      setDeviceToken(uniqueId);
+      console.log('deviceiddddddddd', uniqueId);
+      await EncryptedStorage.setItem('deviice_uid', uniqueId);
+    });
   }, []);
+
+  const insertToken = async (data: FormData) => {
+    const response = await insertTokenApi(data);
+    console.log("responsess2222", response?.data);
+    return response
+  };
+
+  const deviceTokenData = async () => {
+    let formData = new FormData();
+    let token = await EncryptedStorage.getItem('user_token');
+    let deviceName = DeviceInfo.getBrand();
+    formData.append('token', token);
+    formData.append('deviceName', deviceName);
+    formData.append('deviceToken', deviceToken);
+    insertToken(formData)
+      .then(data => {
+        console.log('deviceData===>', data?.data);
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  };
+
 
   const userLogin = async (data: FormData) => {
     const response = await loginApi(data);
     console.log("responsess1111", response?.data?.data);
-
-    DeviceInfo.getUniqueId().then(async (uniqueId) => {
-      console.log('deviceiddddddddd', uniqueId);
-      await EncryptedStorage.setItem('deviice_uid', uniqueId);
-    });
 
     await setUserToken(
       get(response, 'data.data.token', ''),
       get(response, 'data.data', {}),
       get(response, 'data.data.username', {}),
     );
-
+    deviceTokenData();
     return response?.data;
   };
 
