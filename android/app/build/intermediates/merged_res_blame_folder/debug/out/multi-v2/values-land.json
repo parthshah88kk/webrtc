@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/shanidiwaker/.gradle/caches/transforms-3/8bc4dcd3937c232ccf9b791e7b867437/transformed/appcompat-1.1.0/res/values-land/values-land.xml",
+                    "source": "/Users/nikhiljain/.gradle/caches/transforms-3/8bc4dcd3937c232ccf9b791e7b867437/transformed/appcompat-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/shanidiwaker/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/res/values-land/values-land.xml",
+                    "source": "/Users/nikhiljain/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

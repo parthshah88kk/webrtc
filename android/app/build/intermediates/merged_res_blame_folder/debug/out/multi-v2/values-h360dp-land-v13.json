@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/shanidiwaker/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+                    "source": "/Users/nikhiljain/.gradle/caches/transforms-3/808f821a6f6bc95e7aaef246a1201ddc/transformed/material-1.1.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
