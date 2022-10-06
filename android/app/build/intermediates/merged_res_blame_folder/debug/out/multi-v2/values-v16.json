@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/nikhiljain/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/shanidiwaker/.gradle/caches/transforms-3/2c9bf542a5f9dc7ea6fbeb86f33e9afd/transformed/core-1.5.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nikhiljain/.gradle/caches/transforms-3/8bc4dcd3937c232ccf9b791e7b867437/transformed/appcompat-1.1.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/shanidiwaker/.gradle/caches/transforms-3/8bc4dcd3937c232ccf9b791e7b867437/transformed/appcompat-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

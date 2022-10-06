@@ -4,73 +4,19 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MeetAppR.iml" filepath="$PROJECT_DIR$/.idea/modules/MeetAppR.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MeetAppR.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1048177346/MeetAppR.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1048177346/MeetAppR.react-native-async-storage_async-storage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1762294747/MeetAppR.react-native-async-storage_async-storage.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1762294747/MeetAppR.react-native-async-storage_async-storage.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1762294747/MeetAppR.react-native-async-storage_async-storage.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1762294747/MeetAppR.react-native-async-storage_async-storage.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1762294747/MeetAppR.react-native-async-storage_async-storage.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1762294747/MeetAppR.react-native-async-storage_async-storage.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1661277867/MeetAppR.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-1661277867/MeetAppR.react-native-device-info.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1661277867/MeetAppR.react-native-device-info.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1661277867/MeetAppR.react-native-device-info.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1661277867/MeetAppR.react-native-device-info.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1661277867/MeetAppR.react-native-device-info.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1661277867/MeetAppR.react-native-device-info.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1661277867/MeetAppR.react-native-device-info.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-570077307/MeetAppR.react-native-encrypted-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-570077307/MeetAppR.react-native-encrypted-storage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-747915774/MeetAppR.react-native-encrypted-storage.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-747915774/MeetAppR.react-native-encrypted-storage.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-747915774/MeetAppR.react-native-encrypted-storage.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-747915774/MeetAppR.react-native-encrypted-storage.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-747915774/MeetAppR.react-native-encrypted-storage.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-747915774/MeetAppR.react-native-encrypted-storage.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/2092878012/MeetAppR.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/2092878012/MeetAppR.react-native-firebase_app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/128841145/MeetAppR.react-native-firebase_app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/128841145/MeetAppR.react-native-firebase_app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/128841145/MeetAppR.react-native-firebase_app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/128841145/MeetAppR.react-native-firebase_app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/128841145/MeetAppR.react-native-firebase_app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/128841145/MeetAppR.react-native-firebase_app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/701602399/MeetAppR.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/701602399/MeetAppR.react-native-firebase_messaging.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1597527452/MeetAppR.react-native-firebase_messaging.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1597527452/MeetAppR.react-native-firebase_messaging.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1597527452/MeetAppR.react-native-firebase_messaging.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1597527452/MeetAppR.react-native-firebase_messaging.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1597527452/MeetAppR.react-native-firebase_messaging.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1597527452/MeetAppR.react-native-firebase_messaging.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-950194632/MeetAppR.react-native-incoming-call.iml" filepath="$PROJECT_DIR$/.idea/modules/-950194632/MeetAppR.react-native-incoming-call.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1380735797/MeetAppR.react-native-incoming-call.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1380735797/MeetAppR.react-native-incoming-call.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1380735797/MeetAppR.react-native-incoming-call.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1380735797/MeetAppR.react-native-incoming-call.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1380735797/MeetAppR.react-native-incoming-call.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1380735797/MeetAppR.react-native-incoming-call.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2037526348/MeetAppR.react-native-loud-speaker.iml" filepath="$PROJECT_DIR$/.idea/modules/-2037526348/MeetAppR.react-native-loud-speaker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2037526348/MeetAppR.react-native-loud-speaker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-2037526348/MeetAppR.react-native-loud-speaker.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2037526348/MeetAppR.react-native-loud-speaker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-2037526348/MeetAppR.react-native-loud-speaker.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2037526348/MeetAppR.react-native-loud-speaker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-2037526348/MeetAppR.react-native-loud-speaker.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1645042820/MeetAppR.react-native-pager-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1645042820/MeetAppR.react-native-pager-view.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-50733153/MeetAppR.react-native-pager-view.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-50733153/MeetAppR.react-native-pager-view.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-50733153/MeetAppR.react-native-pager-view.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-50733153/MeetAppR.react-native-pager-view.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-50733153/MeetAppR.react-native-pager-view.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-50733153/MeetAppR.react-native-pager-view.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-814529086/MeetAppR.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-814529086/MeetAppR.react-native-safe-area-context.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-992367553/MeetAppR.react-native-safe-area-context.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-992367553/MeetAppR.react-native-safe-area-context.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-992367553/MeetAppR.react-native-safe-area-context.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-992367553/MeetAppR.react-native-safe-area-context.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-992367553/MeetAppR.react-native-safe-area-context.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-992367553/MeetAppR.react-native-safe-area-context.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1686859686/MeetAppR.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1686859686/MeetAppR.react-native-screens.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1600880873/MeetAppR.react-native-screens.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1600880873/MeetAppR.react-native-screens.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1600880873/MeetAppR.react-native-screens.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1600880873/MeetAppR.react-native-screens.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1600880873/MeetAppR.react-native-screens.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1600880873/MeetAppR.react-native-screens.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1861490033/MeetAppR.react-native-sound-player.iml" filepath="$PROJECT_DIR$/.idea/modules/-1861490033/MeetAppR.react-native-sound-player.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1861490033/MeetAppR.react-native-sound-player.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1861490033/MeetAppR.react-native-sound-player.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1861490033/MeetAppR.react-native-sound-player.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1861490033/MeetAppR.react-native-sound-player.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1861490033/MeetAppR.react-native-sound-player.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1861490033/MeetAppR.react-native-sound-player.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/754648503/MeetAppR.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/754648503/MeetAppR.react-native-svg.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/3267316/MeetAppR.react-native-svg.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/3267316/MeetAppR.react-native-svg.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/3267316/MeetAppR.react-native-svg.main.iml" filepath="$PROJECT_DIR$/.idea/modules/3267316/MeetAppR.react-native-svg.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/3267316/MeetAppR.react-native-svg.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/3267316/MeetAppR.react-native-svg.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1918394241/MeetAppR.react-native-utils-scale.iml" filepath="$PROJECT_DIR$/.idea/modules/1918394241/MeetAppR.react-native-utils-scale.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-197613634/MeetAppR.react-native-utils-scale.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-197613634/MeetAppR.react-native-utils-scale.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-197613634/MeetAppR.react-native-utils-scale.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-197613634/MeetAppR.react-native-utils-scale.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-197613634/MeetAppR.react-native-utils-scale.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-197613634/MeetAppR.react-native-utils-scale.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-642320715/MeetAppR.react-native-utils-toolkit.iml" filepath="$PROJECT_DIR$/.idea/modules/-642320715/MeetAppR.react-native-utils-toolkit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1688609714/MeetAppR.react-native-utils-toolkit.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1688609714/MeetAppR.react-native-utils-toolkit.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1688609714/MeetAppR.react-native-utils-toolkit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1688609714/MeetAppR.react-native-utils-toolkit.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1688609714/MeetAppR.react-native-utils-toolkit.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1688609714/MeetAppR.react-native-utils-toolkit.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/16463581/MeetAppR.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/16463581/MeetAppR.react-native-vector-icons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1155271104/MeetAppR.react-native-vector-icons.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1155271104/MeetAppR.react-native-vector-icons.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1155271104/MeetAppR.react-native-vector-icons.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1155271104/MeetAppR.react-native-vector-icons.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1155271104/MeetAppR.react-native-vector-icons.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1155271104/MeetAppR.react-native-vector-icons.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1383369702/MeetAppR.react-native-webrtc.iml" filepath="$PROJECT_DIR$/.idea/modules/-1383369702/MeetAppR.react-native-webrtc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-410764867/MeetAppR.react-native-webrtc.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-410764867/MeetAppR.react-native-webrtc.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-410764867/MeetAppR.react-native-webrtc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-410764867/MeetAppR.react-native-webrtc.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-410764867/MeetAppR.react-native-webrtc.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-410764867/MeetAppR.react-native-webrtc.unitTest.iml" />
     </modules>
   </component>
 </project>

@@ -158,14 +158,12 @@ const WebRTCSimple = {
     },
   },
   events: {
-    call: async (receiverId: any, userData: object = {}) => {
-      receiverId?.map((p: any) => {
-        if (sessionId) {
-          callToUser(sessionId, p?.auth, userData);
-        } else {
-          console.log('Error: Session is null');
-        }
-      })
+    call: async (receiverId: string, userData: object = {}) => {
+      if (sessionId) {
+        callToUser(sessionId, receiverId, userData);
+      } else {
+        console.log('Error: Session is null');
+      }
     },
     acceptCall: () => {
       if (arrPeerConn.length > 0) {

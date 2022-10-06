@@ -129,6 +129,7 @@ const GlobalCallUI = React.forwardRef((props, ref) => {
   }
 
   const call = async (sessionId: string, userData: any) => {
+    console.log('//////======', userData);
     setUserData(userData);
     setVisible(true);
     setType('START_CALL');

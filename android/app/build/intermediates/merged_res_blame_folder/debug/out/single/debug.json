@@ -1,262 +1,262 @@
 [
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_stat_ac_unit.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xhdpi/ic_stat_ac_unit.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_call_white.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_call_white.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_stat_ac_unit.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xxhdpi/ic_stat_ac_unit.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_call.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_call.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bg_circle.xml.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xxxhdpi/bg_circle.xml"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_endcall.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_endcall.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_icons_back.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_assets_images_icons_back.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_micro.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_micro.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_textinput_icon_close.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_textinput_icon_close.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/raw_ring.mp3.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/raw/ring.mp3"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/layout_main_layout.xml.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/layout/main_layout.xml"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_messenger_white.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_messenger_white.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_callend.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_callend.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_video.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_video.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_rjt_btn.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xhdpi/rjt_btn.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_components_checkbox_icon_radiouncheck.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_components_checkbox_icon_radiouncheck.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_option_white.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_option_white.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_camera.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_camera.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_heart_white.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_heart_white.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_icons_back.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_assets_images_icons_back.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_calllog.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_calllog.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_volume.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_volume.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_mic_black.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_mic_black.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_call.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_call.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_icons_icavatar.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_assets_images_icons_icavatar.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_stat_ac_unit.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xxhdpi/ic_stat_ac_unit.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_components_checkbox_icon_checkboxuncheck.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_components_checkbox_icon_checkboxuncheck.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_videocamera.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_videocamera.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_videocamera.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_videocamera.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_stat_ac_unit.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xxxhdpi/ic_stat_ac_unit.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_components_checkbox_icon_checkboxuncheck.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_components_checkbox_icon_checkboxuncheck.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_hashtaginput_icon_close.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_hashtaginput_icon_close.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_camera.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_camera.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_icons_option.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_assets_images_icons_option.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_user.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_user.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_hashtaginput_icon_close.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_hashtaginput_icon_close.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_video.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_video.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_textinput_icon_uneye.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_textinput_icon_uneye.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/raw_tone.mp3.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/raw/tone.mp3"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_phonereceiver.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_phonereceiver.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_option_white.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_option_white.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_stat_ac_unit.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/ic_stat_ac_unit.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_rjt_btn.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xhdpi/rjt_btn.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_components_checkbox_icon_radiouncheck.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_components_checkbox_icon_radiouncheck.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/layout_incoming_call_activity.xml.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/layout/incoming_call_activity.xml"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_stat_ac_unit.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-hdpi/ic_stat_ac_unit.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_video.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_video.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_camera.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_camera.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_volume_white.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_volume_white.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_callwhite.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_callwhite.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_callwhite.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_callwhite.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_autocomplete_icon_close.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_autocomplete_icon_close.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_novideo_white.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_novideo_white.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_callend.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_callend.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_messenger_white.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_messenger_white.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/raw_tone.mp3.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/raw/tone.mp3"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_textinput_icon_uneye.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_textinput_icon_uneye.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_volume.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_volume.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_autocomplete_icon_close.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_autocomplete_icon_close.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_textinput_icon_eye.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_textinput_icon_eye.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_call.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_call.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_stat_ac_unit.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xhdpi/ic_stat_ac_unit.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_camera.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_camera.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_call_bg.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xhdpi/call_bg.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_video.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_video.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_endcall.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_endcall.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_acpt_btn.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xhdpi/acpt_btn.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_icons_option.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_assets_images_icons_option.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/layout_main_layout.xml.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/layout/main_layout.xml"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_textinput_icon_eye.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_textinput_icon_eye.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_micro.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_micro.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_calllog.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_calllog.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_volume_white.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_volume_white.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_messenger_black.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_messenger_black.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_messenger_black.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_messenger_black.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_components_checkbox_icon_checkboxcheck.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_components_checkbox_icon_checkboxcheck.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_acpt_btn.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xhdpi/acpt_btn.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_phonereceiver.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_phonereceiver.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bg_circle.xml.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xxxhdpi/bg_circle.xml"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_heart_white.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_heart_white.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeelementtextinput_src_textinput_icon_close.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeelementtextinput_src_textinput_icon_close.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_components_checkbox_icon_radiocheck.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_components_checkbox_icon_radiocheck.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_components_checkbox_icon_checkboxcheck.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_components_checkbox_icon_checkboxcheck.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_novideo_white.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_novideo_white.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_stat_ac_unit.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-hdpi/ic_stat_ac_unit.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_novideo.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_novideo.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_stat_ac_unit.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/ic_stat_ac_unit.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_icons_icavatar.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_assets_images_icons_icavatar.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/raw_ring.mp3.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/raw/ring.mp3"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalgroupcallmodal_icon_call.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalgroupcallmodal_icon_call.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_stat_ac_unit.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xxxhdpi/ic_stat_ac_unit.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_call_bg.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xhdpi/call_bg.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_call_white.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_call_white.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_user.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_user.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_mic_black.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_mic_black.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_simplemaster_uikit_globalcallmodal_icon_novideo.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_simplemaster_uikit_globalcallmodal_icon_novideo.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/layout_incoming_call_activity.xml.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/layout/incoming_call_activity.xml"
     },
     {
-        "merged": "/Users/nikhiljain/Desktop/webrtc/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_components_checkbox_icon_radiocheck.png.flat",
-        "source": "/Users/nikhiljain/Desktop/webrtc/android/app/src/main/res/drawable-mdpi/src_components_checkbox_icon_radiocheck.png"
+        "merged": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/shanidiwaker/Documents/GitHub/webrtc/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     }
 ]
